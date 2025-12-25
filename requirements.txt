@@ -1,0 +1,6 @@
+azure-identity
+python-dotenv
+langchain-core
+langchain-community
+langchain-openai
+langchain
