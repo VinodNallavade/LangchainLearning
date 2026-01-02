@@ -16,3 +16,5 @@ azureopenai_model= AzureChatOpenAI(
 
 response =azureopenai_model.invoke("what is langchain?")
 print(response)
+
+

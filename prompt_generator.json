@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "budget",
+        "city_name",
+        "interest",
+        "stay_duration"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n            Start with Thanks for using the Travel World Team then,\n            Create a travel plan for someone visiting {city_name}, \n            interested in {interest},\n            staying for {stay_duration} days, \n            and having a {budget} budget.\n            Don't ask for more information. Just provide the travel plan and Avoid asking for printing or format change or any other things.\n            ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
